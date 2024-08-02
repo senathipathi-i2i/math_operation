@@ -8,6 +8,9 @@ setup(
     author='senathipathi',
     author_email='senathipathi.vinayagam@ideas2it.com',
     url='https://github.com/senathipathi-i2i/math_operation',
+    install_requires=[
+        'python-dotenv',  # Required to load the .env file
+    ],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
